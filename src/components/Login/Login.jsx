@@ -10,7 +10,7 @@ const Login = () => {
     const githubProvider = new GithubAuthProvider();
 
     const handleGoogleSignIn = () => {
-        // console.log("Google mama sign in");
+        // console.log("Google mama sign in"); 
         signInWithPopup(auth, googleProvider)
             .then(result => {
                 const loggedInUser = result.user;
